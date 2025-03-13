@@ -5656,12 +5656,12 @@ button.close {
 }
 
 body {
-    background-image: -webkit-linear-gradient(top, #ff0060, #ff6975);
-    background-image: -o-linear-gradient(top, #ff0060 0, #ff6975 100%);
-    background-image: linear-gradient(180deg, #ff0060 0, #ff6975);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFF0060", endColorstr="#FFFF6975", GradientType=0)
+    background-image: url('fondo.png'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
+
 
 body.white {
     background-color: #fff;
@@ -5773,7 +5773,7 @@ body.white {
 .btn-primary:hover {
     background-image: -webkit-linear-gradient(left, #ff6975, #ff0060);
     background-image: -o-linear-gradient(left, #ff6975 0, #ff0060 100%);
-    background-image: linear-gradient(90deg, #ff6975 0, #ff0060);
+    background-image: linear-gradient(90deg, #ff6969 0, #ff0060);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFF6975", endColorstr="#FFFF0060", GradientType=1)
 }
@@ -6017,3 +6017,7 @@ label {
 }
 
 /*# sourceMappingURL=main.bc58148c.map*/
+
+
+
+
