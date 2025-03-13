@@ -28,7 +28,7 @@ hgroup,
 main,
 menu,
 nav,
-section,
+.background-image:ion,
 summary {
     display: block
 }
@@ -364,7 +364,7 @@ img {
 
 .img-responsive {
     display: block;
-    max-width: 30%;
+    max-width: 80%;
     height: auto
 }
 
@@ -860,7 +860,7 @@ samp {
 }
 
 code {
-    color: #c7254e;
+    color: #ff0a0a00;
     background-color: #f9f2f4;
     border-radius: 4px
 }
@@ -2982,8 +2982,8 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary {
     color: #fff;
-    background-color: #ff0060;
-    border-color: #ff0060
+    background-color: #ff0000;
+    border-color: #00ff0d
 }
 
 .btn-primary.focus,
@@ -5091,7 +5091,7 @@ button.close {
 
 .carousel-inner {
     overflow: hidden;
-    width: 100%
+    width: 50%
 }
 
 .carousel-inner>.item {
@@ -5105,7 +5105,7 @@ button.close {
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img {
     display: block;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     line-height: 1
 }
@@ -6017,7 +6017,3 @@ label {
 }
 
 /*# sourceMappingURL=main.bc58148c.map*/
-
-
-
-
